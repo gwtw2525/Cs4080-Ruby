@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  host: localhost
+  database: capstone
+
+  production:
+    url: <%= ENV['DATABASE_URL'] %>
