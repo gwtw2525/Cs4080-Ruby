@@ -3,7 +3,7 @@
 module DBSeeder
   class Building < Generator
     class << self
-      def building_names
+      def building_name
         fetch('building.names')
       end
 
